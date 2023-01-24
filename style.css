@@ -46,7 +46,7 @@ hr {
     margin: 5px;
     gap: 10px;
 } .pageScrollers p, .pageScrollers a {
-    font-size: 20px;
+    font-size: 14px;
 }
 
 ol {
@@ -114,7 +114,7 @@ li a {
 
 .sectionContent {
     width: 70%;
-    margin: 10px;
+    margin: 1px;
     border-radius: 3%;
     background-color: rgba(255, 255, 255, 0.050);
     box-shadow: 0 0 50px #00457e3b;
@@ -130,18 +130,17 @@ li a {
 
 .imageSection {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 20px;
-    margin: 5%;
+    margin: 2%;
 }
 
 .sectionText {
     display: flex;
     flex-direction: column;
 
-    width: 60%;
     text-align: center;
 } .sectionText a {
     text-decoration: underline;
